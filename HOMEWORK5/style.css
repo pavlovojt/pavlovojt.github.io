@@ -1,0 +1,80 @@
+.conteiner{display: flex;
+    height: 100px;
+  ;
+justify-content: space-between;
+margin-bottom: 130px;
+}
+  .logo{height: 100px;width: 100px;display: flex;
+  justify-content: center; align-items: center ;
+  font-family: 'Great Vibes', cursive;;font-size: 30px;}
+  .menu{height: 100px;width: 700px;display: flex;justify-content: center;}
+  .nal{height: 100px;width: 100px;
+  justify-content: center;
+display: flex;
+align-items: center;
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+font-size:20px ;}
+.two{justify-content: center;
+    margin-bottom: 80px;margin-left: 20px;
+}
+.d{opacity: 0.5;
+font-size: medium;
+margin-left: 550px;}
+.c{margin-left: 580px;}
+.conte{height: 200px;
+width: 200px;
+border: 2px solid white ;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;}
+.circle{position: absolute;}
+.ico{position: absolute;}
+.aufvolk{justify-content: space-around;
+display: flex;}
+.trafalgar{display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+.textkv{justify-content: space-around;
+    display: flex;}
+.razor{display: flex;
+    justify-content: center;
+    justify-content: space-around;
+width: 100px;
+opacity: 0.5;}
+.hlavnyjblock{background-color: black;
+margin-top: 100px;}
+.akalash{justify-content: center;
+display: flex;
+}
+.opasnyj{color: white;}
+.blabla{justify-content: center;
+font-size: medium;
+display: flex;
+opacity: 0.5;
+}
+.nadpys{color: white;}
+.input1{margin-left: 20px;
+margin-bottom: 43px;
+}
+.linkor{
+    margin-left: 50px;
+}
+.air{display: flex;
+justify-content: center;
+margin-top: 100px;}
+.checked{
+justify-content: center; }
+.buttonn{color: white;
+    background: yellow;
+height:50px ; width: 200px;    
+margin-left: 570px;}
+.b1 {
+    background: yellow; 
+    color: white; 
+    font-size: 14pt; 
+    height:50px ; width: 200px;  
+    margin-left: 570px;
+   }

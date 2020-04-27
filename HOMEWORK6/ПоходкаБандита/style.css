@@ -1,0 +1,10 @@
+.capguy-walk{
+    display: block;
+   height:325px ;width:180px ;
+   background-image: url(capguy-walk.png)   ;
+   animation: capguy-walk 1.3s steps(8) infinite;
+    }
+@keyframes capguy-walk {
+0%{background-position: 0px;}
+100%{background-position: -1472px;}
+}

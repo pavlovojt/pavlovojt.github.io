@@ -1,0 +1,318 @@
+
+ /* ПРАВИЛА:
+1. стили от преподавателя (светятся ярко) нельзя изменять!
+2. стили, отмеченные зеленым цветом (закомментированные) 
+нужно вписать самостоятельно с указанием нужного значения */
+  
+/* занятие 1 - секция 1 (ХЕДЕР)  */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ 
+ul {
+    list-style: none;
+}
+
+header {
+    height: 500px;
+     background-image : url(./imgh/Surfing.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    text-align: center;
+
+
+}
+ 
+.site-nav {
+    width: 1250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+    top: 30px;
+    
+
+    margin: 0 auto;
+   /* border: 7px solid transparent;
+    border-image: 10 repeating-linear-gradient(45deg, #314c77, #314c77 10px, transparent 10px, transparent 20px,
+     #F8463F 20px, #F8463F 30px,transparent 30px, transparent 40px); */
+    }
+
+
+ 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+  font-size :28px;
+  color: white;
+  
+}
+    
+.nav-list {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+ 
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    
+   
+    transition: .6s;
+    position: relative;
+    padding: 5px;
+    color: white;
+    font-weight: 200    ;
+}
+ 
+.nav-link:hover {
+    color: #303030;
+    font-size: 19px;
+}
+ 
+.nav-link:hover::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #1ab798;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+    .nav-list-item{
+    font-weight: 200    ;}
+.wrote{display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 50px;
+color:white;
+font-family: "Playfair Display";
+font-weight: 400;
+font-style: italic;
+text-align: center;
+}
+.about{font-size: 24px;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    filter: drop-shadow(0px 3px 7.5px rgba(0,0,0,0.64));
+color: black;}
+.blockkartynky{height:600px ;
+width: 1030px;
+
+display: flex;
+justify-content: center;
+position: relative;
+margin: 0 auto
+;top: 100px;
+background-color: white;
+
+
+margin: 1em auto;
+padding: 1em;
+box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
+
+}
+.k{background-image: url(./imgh/Corner.png);
+   width: 500px;
+   height:600px;
+    position: absolute;
+ right: 532px;
+ bottom: 1px;
+    }
+.i{background-image: url(./imgh/Board.png)  ;
+    height: 500px;
+    width:410px;
+    position: absolute;
+    left:50px;
+    top: 50px;
+    border-radius: 10%;
+}
+.n{position: absolute;
+top: 135px;}
+.g{}
+
+
+
+.luffy{ height: 70px;
+width: 66px;
+border: gray solid 1px;
+    margin-bottom: 10px;
+    background-image: url(./imgh/Photo.png );
+}
+.luffy:hover{border: lightseagreen solid 3px;}
+.srart{height:50px ;
+width: 330px;
+      ;
+position: absolute;
+right:120px;
+}
+.speed{
+    display: flex   ;
+    
+     ;
+position: absolute;
+      right : 180px;
+    bottom: 500px;}
+.p{color: #787878;
+    margin-left: 20px}
+
+.p:hover{
+font-size: 20px;
+color: black;
+
+}
+  .traffy{position: absolute;
+top: 170px  ;
+right: 70px;
+color: #787878;}
+.j{display: flex;
+position: absolute;
+bottom: 200px;
+right: 170px;}
+.bl{ margin-right: 20px;}
+.buy{color: white;
+background-color:lightseagreen ;
+width: 70px;}
+.doffy{position: absolute;
+bottom: 120px;
+right: 210px;
+color: lightseagreen    ;
+font-size: 20px;}
+
+/*  
+ 
+.p:hover::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #1ab798;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+#side-checkbox {
+    display: none;
+}
+.side-panel {
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: -360px;
+    background: rgb(116, 188, 252);
+    transition: all 0.5s;   
+    width: 180px;
+    height: 100vh;
+    box-shadow: 10px 0 20px rgba(0,0,0,0.4);
+    color: #FFF;
+    padding: 40px 20px;
+}
+.side-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(116, 182, 236);
+}
+/* Оформление кнопки на странице */
+.side-button-1-wr {
+    text-align: center; /* Контейнер для кнопки, чтобы было удобнее ее разместить */
+}
+.side-button-1 .side-b {
+    width: 100px;
+    margin: -23px;
+    margin-left: 790px;
+    text-decoration: none;
+    position: absolute;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 12px 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-family: 'Roboto Condensed', Тahoma , sans-serif;
+    background: rgb(119, 179, 231);
+    cursor: pointer; 
+    border: 2px solid rgb(124, 190, 245) ;
+    border-radius: 50px ;
+}
+.side-button-1 .side-b:hover,
+.side-button-1 .side-b:active,
+.side-button-1 .side-b:focus {
+    color: #FFF;
+}
+.side-button-1 .side-b:after,
+.side-button-1 .side-b:before {
+    position: absolute;
+    height: 4px;
+    left: 50%;
+    bottom: -6px;
+    content: "";
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+.side-button-1 .side-open:after,
+.side-button-1 .side-open:before {
+   
+}
+.side-button-1 .side-close:after,
+.side-button-1 .side-close:before {
+   
+}   
+.side-button-1 .side-b:before {
+    top: -6px;
+}
+.side-button-1 .side-b:hover:after,
+.side-button-1 .side-b:hover:before {
+    width: 100%;
+    left: 0;
+}
+/* Переключатели кнопки 1 */
+.side-button-1 .side-close {
+    display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-open {
+    display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-close {
+    display: block;
+}
+#side-checkbox:checked + .side-panel {
+    left: 0;
+}
+/* Оформление кнопки на панеле */
+.side-button-2 {
+    font-size: 30px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    color: #BFE2FF;    
+    transition: all 280ms ease-in-out;    
+}
+.side-button-2:hover {
+    transform: rotate(45deg) scale(1.1);    
+    color: #FFF;
+}
+.scs{margin-bottom: 20px;
+    font-size: 20px;
+    color: white;}
+
+a{text-decoration: none;}
+.sss{font-size: 20px;
+    color: white;}

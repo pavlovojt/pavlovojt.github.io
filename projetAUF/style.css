@@ -26,7 +26,7 @@ header {
     background-repeat: repeat-x;
     background-size: cover;
     text-align: center;
-
+;
 
 }
  
@@ -118,7 +118,7 @@ position: relative;
 margin: 0 auto
 ;top: 100px;
 background-color: white;
-
+margin-top:1000px;
 
 margin: 1em auto;
 padding: 1em;
@@ -316,3 +316,177 @@ font-size: 20px;}
 a{text-decoration: none;}
 .sss{font-size: 20px;
     color: white;}
+
+    .text{
+        display: block;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    letter-spacing: 3px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 400;
+    position: absolute;
+    top: 1000px;
+    left:510px;
+    }
+    .icon{
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        top: 58px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+       
+    }
+    .quote {
+        
+        height: 110px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #787878;
+        font-family: "Raleway";
+      }
+    
+    .overflow {
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+      }
+    
+    .team-list {
+       
+        position: absolute;
+        top: 1100px;
+        width: 92%;
+        text-align: center;
+      
+       
+      }
+       
+      .team-member {
+        position: relative;
+        width: 270px;
+      }
+       
+      
+      
+      .member-position {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        line-height: 24px;
+        
+      
+       
+      }
+       
+      .member-photo {
+        width: 300px;  
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+       
+      
+       
+      .social-links {
+        display: flex;
+        justify-content: center;
+      }
+        
+      .team-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 80px;
+        padding: 0;
+      }
+      .b{
+        position: absolute;
+        top: 400px;
+        
+      }
+      .b1{
+        width: 197px;
+        height: 44px;
+        background-color: #00b0ff;
+        font-size: 14px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+      }
+      main{
+        }
+
+        .ppofkopskfpoofojf{position: absolute;
+        top: 600px;}
+        .ssss{display: flex;margin: 0px;}
+       .imggg1{position: absolute;
+    left: -300px;    }
+       
+       .imggg2{position: absolute;
+    left: -117px;}
+       .imggg3{position: absolute;
+    top: 275px;left: -117px;    }
+       .imggg4{position: absolute;
+    top: 275px; left: -300px;}
+    .fihnjazfacebuk{ position: absolute; width: 400px
+        ;height: 300px; left: 270px; top: 100px;
+   
+height: 320px;width: 180px; }
+    .odynblockzdwoh{ position: absolute;  background-color: #385490; width: 400px; height: 150px;}
+    .druhuyblockzdwoh{position: absolute;background-color:#e5e5e5; width: 400px; height: 150px;top: 150px;
+
+      }
+      .facebook{position: absolute;left: 150px;
+    top: 20px; background-image: url(./imgh/fkbkіm.png);
+width: 120px;
+
+height: 20px;}
+.footer{background-color: black;
+width: 1330px;
+height: 400px; position: absolute;
+top: 2270px;
+left: 10px;
+}
+body{height: 2690px;}
+.ooo{position: absolute;
+height: 109px;
+width: 15px;background-image: url(./imgh/Waves\ col\ 1.png);top: 8px;}
+
+.oooo{position: absolute;
+    height: 150px;
+    width: 100px;
+left: 1100px;
+top: 20px;}
+.spann{color: cornsilk;
+}.qqqqqqqqq{position: absolute
+    ;left: 20px;}
+    .oooooo{position: absolute;
+        height: 150px;
+        width: 100px;
+    left:900px;
+top: 20px;}
+    .spannn{color: cornsilk;
+    }.qqqqqqqqqq{position: absolute
+        ;left: 20px;}
+        .ooooo{position: absolute;
+            height: 109px;
+            width: 15px;background-image: url(./imgh/Waves\ col\ 1.png);top: 8px;}
+            .uuuuuuuuuu{position: absolute;
+            top: 240px;
+        left: 1000px;}
+         .wwee{color: cornsilk;
+        font-size: 20px;position: relative;
+        left: -40px;
+       }
+        .buttonnnn{width:50px ;
+        height: 50px;
+    border-radius: 50%;
+background-color: yellow;
+position: relative;
+left: 7px;
+top: 1px;}

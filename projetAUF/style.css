@@ -93,7 +93,7 @@ header {
     font-weight: 200    ;}
 .wrote{display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 20px;
     font-size: 50px;
 color:white;
 font-family: "Playfair Display";
@@ -114,12 +114,12 @@ width: 1030px;
 
 display: flex;
 justify-content: center;
-position: relative;
+position: absolute;
 margin: 0 auto
-;top: 100px;
+;top: 150px;
 background-color: white;
 margin-top:1000px;
-
+left: 150px;
 margin: 1em auto;
 padding: 1em;
 box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
@@ -133,8 +133,8 @@ box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
  bottom: 1px;
     }
 .i{background-image: url(./imgh/Board.png)  ;
-    height: 500px;
-    width:410px;
+    height: 452px;
+    width:350px;
     position: absolute;
     left:50px;
     top: 50px;
@@ -187,7 +187,7 @@ right: 170px;}
 background-color:lightseagreen ;
 width: 70px;}
 .doffy{position: absolute;
-bottom: 120px;
+bottom: 140px;
 right: 210px;
 color: lightseagreen    ;
 font-size: 20px;}
@@ -481,7 +481,7 @@ top: 150px;}
         left: 1000px;}
          .wwee{color: cornsilk;
         font-size: 20px;position: relative;
-        left: -40px;
+        left: 5px;
        }
         .buttonnnn{width:50px ;
         height: 30px;

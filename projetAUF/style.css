@@ -21,7 +21,7 @@ ul {
 }
 
 header {
-    height: 500px;
+    height: 100vh;
      background-image : url(./imgh/Surfing.png);
     background-repeat: repeat-x;
     background-size: cover;
@@ -460,16 +460,16 @@ width: 15px;background-image: url(./imgh/Waves\ col\ 1.png);top: 8px;}
 .oooo{position: absolute;
     height: 150px;
     width: 100px;
-left: 1100px;
-top: 20px;}
+left: 300px;
+top: 150px;}
 .spann{color: cornsilk;
 }.qqqqqqqqq{position: absolute
     ;left: 20px;}
     .oooooo{position: absolute;
         height: 150px;
         width: 100px;
-    left:900px;
-top: 20px;}
+    left:200px;
+top: 150px;}
     .spannn{color: cornsilk;
     }.qqqqqqqqqq{position: absolute
         ;left: 20px;}
@@ -477,16 +477,17 @@ top: 20px;}
             height: 109px;
             width: 15px;background-image: url(./imgh/Waves\ col\ 1.png);top: 8px;}
             .uuuuuuuuuu{position: absolute;
-            top: 240px;
+            top: 200px;
         left: 1000px;}
          .wwee{color: cornsilk;
         font-size: 20px;position: relative;
         left: -40px;
        }
         .buttonnnn{width:50px ;
-        height: 50px;
-    border-radius: 50%;
+        height: 30px;
+    border-radius: 15%;
 background-color: yellow;
 position: relative;
 left: 7px;
-top: 1px;}
+top: 1px;
+font-size: 10px;}

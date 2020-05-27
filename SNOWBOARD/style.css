@@ -116,7 +116,7 @@ color: rgb(250, 248, 248);}
 
 
 
-.tydor{display: flex; justify-content: center; margin-top: 100px; margin-bottom: 200px;}
+.tydor{display: flex; justify-content: center; margin-top: 10px; margin-bottom: 200px;}
 .blockkartynky{height:600px ;
 width: 1030px;
 
@@ -353,7 +353,7 @@ a{text-decoration: none;}
     top: 220%;
     left: 0;
     text-align: center;
-    margin-top: 22%;
+    margin-top: 16%;
     }
     .icon{
         width: 13px;

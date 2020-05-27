@@ -116,7 +116,7 @@ color: rgb(250, 248, 248);}
 
 
 
-.tydor{display: flex; justify-content: center; margin-top: 100px;}
+.tydor{display: flex; justify-content: center; margin-top: 100px; margin-bottom: 200px;}
 .blockkartynky{height:600px ;
 width: 1030px;
 
@@ -340,7 +340,7 @@ a{text-decoration: none;}
     color: white;}
 
     .text{
-        display: block;
+        
         display: flex;
         justify-content: center;
         font-size: 18px;
@@ -348,10 +348,12 @@ a{text-decoration: none;}
     color: #000000;
     font-family: "Montserrat";
     font-weight: 400;
-     position: absolute; 
-     top: 130%;left: 37%;
-     
-    text-align: center; 
+     position: relative ;   text-align: center;
+
+    top: 220%;
+    left: 0;
+    text-align: center;
+    margin-top: 22%;
     }
     .icon{
         width: 13px;

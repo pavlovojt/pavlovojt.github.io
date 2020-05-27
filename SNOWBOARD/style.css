@@ -116,7 +116,7 @@ color: rgb(250, 248, 248);}
 
 
 
-.tydor{display: flex; justify-content: center; margin-top: 11px; margin-bottom: 200px;}
+.tydor{display: flex; justify-content: center; margin-top: 10px; margin-bottom: 200px;}
 .blockkartynky{height:600px ;
 width: 1030px;
 
@@ -133,6 +133,7 @@ padding: 1em;
 box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
 
 }
+
 
 
 
@@ -565,5 +566,5 @@ font-size: 10px;}
 .notcenter{ 
     top:0; }
     .widjet{margin-left: 70%; display: flex;}
-    .ultramysh{position: absolute; width: 157%; right: 0px;}
+    .ultramysh{position: absolute; width: 100%; right: 0px;}
     .text_notcenter{display: flex; justify-content: center; }

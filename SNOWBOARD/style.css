@@ -566,5 +566,5 @@ font-size: 10px;}
 .notcenter{ 
     top:0; }
     .widjet{margin-left: 70%; display: flex;}
-    .ultramysh{position: absolute; width: 150%; right: 0px;}
+    .ultramysh{position: absolute; width: 100%; right: 0px;}
     .text_notcenter{display: flex; justify-content: center; }
